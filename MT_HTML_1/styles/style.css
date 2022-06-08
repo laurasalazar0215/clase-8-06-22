@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background: url('https://www.wallpapertip.com/wmimgs/70-703068_minas-tirith-wallpaper-hd.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(44, 27, 27);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+nav{
+    background-color: #353333;
+    width: 100%;
+}
+
+.menu{
+list-style: none;
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+.lista a {
+    text-decoration: none;
+    color: azure;
+    display: block;
+    padding: 15px 50px;
+}
+
+.menu .lista{
+    display: inline-block;
+}
+
+ .lista-r{
+    float: right;
+}
+
+.lista a:hover{
+    background-color: brown;
+}
+
+main{
+    text-align: center;
+}
+
+img{
+    margin-top: 10px;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 10px solid white;
+}
